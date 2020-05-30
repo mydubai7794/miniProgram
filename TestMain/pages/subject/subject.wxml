@@ -1,0 +1,29 @@
+<!--pages/subject/subject.wxml-->
+
+<!--导航菜单-->
+<view class="navbar" style="z-index:50">
+<!--循环-->
+ <view wx:for="{{navbar}}" data-idx="{{index}}" wx:key="unique" class="item {{currentTab==index ? 'active' : ''}}" bindtap="navbarTap">
+    <view class="notice" wx:if="{{count[index]>0}}">{{count[index]}}</view>
+    {{item}}
+    <!--<text  bindtap="navbarTap">{{item}}</text>-->
+  </view>
+  </view>
+  <!--推荐 话说id是啥-->
+<view hidden="{{currentTab !== 0}}" id="two">
+  <template is="list" data="{{maintainRecordlist}}" />
+  <view>
+  推荐
+  </view>
+</view>
+<!--发现-->
+<view hidden="{{currentTab !== 1}}" id="one">
+  <template is="list" data="{{maintainRecordlist}}" />
+  <view class="products">
+  发现
+  热门栏目
+  </view>
+  <view class="classify"> 
+  分类
+  </view>
+</view>
