@@ -62,13 +62,35 @@ border: none;
   border: #666666;
   border-style: solid;
 }
-.classify{
+#fenlei{
   position: fixed;
   top:840rpx ;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+.classify{
+  position: fixed;
+  top:900rpx ;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   border: #ec9e14;
   border-style: solid;
+  background-color: #fff;
+}
+.picture_word{
+  font-size: small;
 
+  
+}
+.wrap{
+  clear: both;
+}
+.picture{
+  width: 140rpx;
+  height: 140rpx;
+  float:left;
+  margin-left: 30rpx;
+  margin-top: 5rpx;
 }

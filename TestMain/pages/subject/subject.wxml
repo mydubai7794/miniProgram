@@ -23,7 +23,19 @@
   发现
   热门栏目
   </view>
-  <view class="classify"> 
-  分类
+<view id="fenlei">分类</view>
+<view class="classify"> 
+    <image src="../picture/时政.jpg" class="picture"></image>
+   <image src="../picture/社会.jpg" class="picture"></image>
+   <image src="../picture/国际.jpg" class="picture"></image>
+   <image src="../picture/财经.jpg" class="picture"></image>
+  <image src="../picture/科技.jpg" class="picture"></image>
+   <image src="../picture/娱乐.jpg" class="picture"></image>
+   <image src="../picture/体育.jpg" class="picture"></image>
+   <image src="../picture/军事.jpg" class="picture"></image>      
+    
+    
+    
+    
   </view>
 </view>
