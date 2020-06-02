@@ -25,9 +25,9 @@
   </view>
 <view id="fenlei">分类</view>
 <view class="classify"> 
-<view bindtap='seeDetail'>
+<navigator url="../political/political">
     <image src="../picture/时政.jpg" class="picture"></image>
-  </view>
+</navigator>
    <image src="../picture/社会.jpg" class="picture"></image>
    <image src="../picture/国际.jpg" class="picture"></image>
    <image src="../picture/财经.jpg" class="picture"></image>
