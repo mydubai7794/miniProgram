@@ -1,2 +1,4 @@
 <!--pages/secondpage/entertainment.wxml-->
-<text>pages/secondpage/entertainment.wxml</text>
+<navigator url="../subject/search">
+    <image src="../picture/search.png" class="search" ></image>
+</navigator>

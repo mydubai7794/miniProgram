@@ -1,2 +1,4 @@
 <!--pages/secondpage/sociology.wxml-->
-<text>pages/secondpage/sociology.wxml</text>
+<navigator url="../subject/search">
+    <image src="../picture/search.png" class="search" ></image>
+</navigator>

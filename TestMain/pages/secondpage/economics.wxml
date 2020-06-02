@@ -1,2 +1,4 @@
 <!--pages/secondpage/economics.wxml-->
-<text>pages/secondpage/economics.wxml</text>
+<navigator url="../subject/search">
+    <image src="../picture/search.png" class="search" ></image>
+</navigator>

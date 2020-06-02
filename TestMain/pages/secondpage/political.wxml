@@ -1,3 +1,5 @@
 <!--pages/political/political.wxml-->
+<navigator url="../subject/search">
+    <image src="../picture/search.png" class="search" ></image>
+</navigator>
 <text>pages/political/political.wxml</text>
-<view>时政？？</view>

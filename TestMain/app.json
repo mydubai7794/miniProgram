@@ -8,7 +8,8 @@
     "pages/secondpage/science",
     "pages/secondpage/entertainment",
     "pages/secondpage/sports",
-    "pages/secondpage/military"
+    "pages/secondpage/military",
+    "pages/subject/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
