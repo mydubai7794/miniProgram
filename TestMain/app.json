@@ -1,6 +1,7 @@
 {
   "pages":[
-    "pages/subject/subject"
+    "pages/subject/subject",
+    "pages/political/political"
   ],
   "window":{
     "backgroundTextStyle":"light",

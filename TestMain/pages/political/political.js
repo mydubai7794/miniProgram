@@ -1,4 +1,4 @@
-// pages/subject/subject.js
+// pages/political/political.js
 Page({
 
   /**
@@ -6,23 +6,8 @@ Page({
    */
   data: {
 
-    navbar:['推荐','发现'],
-        currentTab:0,
   },
-  //响应点击导航栏
-  navbarTap:function(e){
-    var that=this;
-    that.setData({
-      currentTab:e.currentTarget.dataset.idx,
-      TypeItem:that.data.navbar[that.data.currentTab]
-    })
-  },
-  //跳转尝试
-  seeDetail:function(){
-    wx.navigateTo({
-      url: '/pages/political/political',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
