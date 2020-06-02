@@ -1,16 +1,21 @@
 {
-  "pages":[
+  "pages": [
     "pages/subject/subject",
-    "pages/political/political"
+    "pages/secondpage/political",
+    "pages/secondpage/sociology",
+    "pages/secondpage/international",
+    "pages/secondpage/economics",
+    "pages/secondpage/science",
+    "pages/secondpage/entertainment",
+    "pages/secondpage/sports",
+    "pages/secondpage/military"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "声动名片",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
-
   "style": "v2",
   "sitemapLocation": "sitemap.json"
-
-  }
+}
