@@ -1,0 +1,66 @@
+<view class="pro" >
+<navigator url="../index/index" hover-class="navigator-hover">
+<view class="fl first"  >推荐 </view>
+</navigator>
+
+<view class="fr secord">发现</view>
+
+</view>
+
+
+
+
+<view class="products">
+
+<view class="fourth">热门栏目</view>
+
+<view class="one">
+<view class="one-1">
+<image class="one-1" src="../../images/1.png"></image>
+</view>
+<view class="one-1">
+<image class="one-1" src="../../images/2.png"></image>
+</view>
+<view class="one-1">
+<image class="one-1" src="../../images/3.png"></image>
+</view>
+</view>
+
+
+
+<view class="two">
+<view class="one-1">
+<image class="one-1" src="../../images/4.png"></image>
+</view>
+<view class="one-1">
+<image class="one-1" src="../../images/5.png"></image>
+</view>
+<view class="one-1">
+<image class="one-1" src="../../images/6.png"></image>
+</view>
+</view>
+
+<view class="three">
+<image class="one-1" src="../../images/7.png"></image>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>
+
+
+
+
+
+

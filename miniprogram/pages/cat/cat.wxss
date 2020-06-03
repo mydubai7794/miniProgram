@@ -1,0 +1,72 @@
+.first{
+  font-size: 36rpx;
+  margin-left: 260rpx;
+}
+.secord{
+  font-size: 36rpx;
+  margin-right: 260rpx;
+}
+.third{
+  height:1rpx;
+  width:1rpx;
+
+}
+.fourth{
+  padding: 20rpx;
+}
+.products{
+  position: fixed;
+  top: 50rpx;
+  bottom: 450rpx;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 500rpx);
+}
+.one{
+   position: fixed;
+  top: 100rpx;
+  left: 0;
+  width: 100%;
+  height: calc((100% - 500rpx)/3);
+  display: flex;
+  flex-direction:row;
+}
+.one-1{
+  width: 200rpx;
+  height:160rpx;
+  padding: 20rpx;
+  
+}
+.one-1-font{
+  margin-left:100rpx ;
+  font-size:20rpx;
+  }
+  .font{
+    margin-left: 100rpx;
+  }
+  .two{   position: fixed;
+    top: 300rpx;
+    bottom: calc(450rpx+((100% - 500rpx)/3));
+    left: 0;
+    width: 100%;
+    height: calc((100% - 500rpx)/3);
+    display: flex;
+    flex-direction:row;
+    
+  }
+
+  .three{position: fixed;
+    top: 500rpx;
+    bottom: 450rpx;
+    left: 20rpx;
+    width: 100%;
+    height: calc((100% - 500rpx)/3);
+    display: flex;
+    flex-direction:row;
+
+  }
+.navigator-hover {
+  color:rgb(255, 0, 0);
+}
+
+

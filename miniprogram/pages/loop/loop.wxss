@@ -1,0 +1,58 @@
+.one{
+  width: 100%;
+  height: 320rpx;
+}
+.sudo-img{
+  padding: 0rpx 30rpx;
+  width: 690rpx;
+  height: 300rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+
+.two{
+  width: 690rpx;
+  height:120rpx;
+  padding: 30rpx 30rpx;
+  background-color:white;
+}
+
+.avatar{
+  width:100rpx;
+  height: 100rpx;
+  border-radius: 500rpx;
+}
+.two-text{
+  margin-left: 40rpx;
+}
+
+.two-text1{
+
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  font-size: 20rpx;
+}
+
+.two-button{
+  position: fixed;
+  flex-direction: row;
+  margin-top: 60rpx;
+  margin-left: 480rpx;
+
+}
+.two-button1{
+  
+  width:50rpx;
+  height: 50rpx;
+  border-radius: 500rpx;
+  }
+
+  .two-button2{
+ padding-left: 55rpx;
+    width:50rpx;
+    height: 50rpx;
+    border-radius: 500rpx;
+    }
+

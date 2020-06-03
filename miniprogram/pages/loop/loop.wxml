@@ -1,0 +1,42 @@
+<view class="one">  
+<image class="sudo-img" src="../../images/11.png">
+</image>
+</view>
+
+
+<view class="two">
+<image class=" fl avatar" src="../../images/15.png">
+<button size="mini">按钮1</button>
+</image>
+
+<view class=" fl two-text">每日双语咨询！新鲜E闻6月2日</view>
+<view class="fl two-text1">3小时前</view>
+<view class="fr two-button">
+<image class="two-button1" src="../../images/12.png" ></image> 
+<image class="two-button2" src="../../images/13.png" ></image>
+</view>
+</view>
+
+<view class="two">
+<image class=" fl avatar" src="../../images/15.png">
+</image>
+<view class=" fl two-text">每日双语咨询！新鲜E闻6月1日</view>
+<view class="fl two-text1">6月11日</view>
+<view class="fr two-button">
+<image class="two-button1" src="../../images/12.png" ></image> 
+<image class="two-button2" src="../../images/13.png" ></image>
+</view>
+</view>
+
+
+
+<view class="two">
+<image class=" fl avatar" src="../../images/15.png">
+</image>
+<view class=" fl two-text">每日双语咨询！新鲜E闻5月31日</view>
+<view class="fl two-text1">月31日</view>
+<view class="fr two-button">
+<image class="two-button1" src="../../images/12.png" ></image> 
+<image class="two-button2" src="../../images/13.png" ></image>
+</view>
+</view>
