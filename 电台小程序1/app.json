@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/index",
+    "pages/recommen/index",
+    "pages/fresh/index",
+    "pages/fresh-info1/index",
+    "pages/heaten/index",
+    "pages/jian/index",
+    "pages/food/index",
+    "pages/star/index",
+    "pages/read/index",
+    "pages/morning/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F4F4F5",
+    "navigationBarTitleText": "人民日报FM",
+    "navigationBarTextStyle": "black"
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

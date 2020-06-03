@@ -1,0 +1,53 @@
+<view class="tabs">
+  <view class="tabs_title">
+    <view bindtap="handletap" data-current="0" class="rec  {{current==0?'active':''}}">推荐</view>
+    <view bindtap="handletap" data-current="1" class="find {{current==1?'active':''}}">发现</view>
+  </view>
+</view>
+<!-- 发现页面 -->
+<view class="product" wx:if="{{current==1}}">
+  <view class="lanmu">热门栏目</view>
+  <view class="hezi">
+    <view class="yihezi">
+      <navigator class="fresh-n" url="../fresh/index">
+        <image class="fresh" src="../../pics/fresh.png"></image>
+      </navigator>
+    </view>
+    <view class="erhezi">
+      <navigator class="heaten-n" url="../heaten/index">
+        <image class="fresh" src="../../pics/heaten.png"></image>
+      </navigator>
+    </view>
+    <view class="yihezi">
+      <navigator class="jian-n" url="../jian/index">
+        <image class="fresh" src="../../pics/jian.png"></image>
+      </navigator>
+    </view>
+  </view>
+  <view class="hezitwo">
+    <view class="yihezi">
+      <navigator class="food-n" url="../food/index">
+        <image class="fresh" src="../../pics/food.png"></image>
+      </navigator>
+    </view>
+    <view class="erhezi">
+      <navigator class="star-n" url="../star/index">
+        <image class="fresh" src="../../pics/star.png"></image>
+      </navigator>
+    </view>
+    <view class="yihezi">
+      <navigator class="read-n" url="../read/index">
+        <image class="fresh" src="../../pics/read.png"></image>
+      </navigator>
+    </view>
+  </view>
+  <view class="hezithree">
+    <view class="yihezi">
+      <navigator class="morning-n" url="../morning/index">
+        <image class="fresh" src="../../pics/morning.png"></image>
+      </navigator>
+    </view>
+  </view>
+</view>
+<!-- 推荐页面 -->
+<view class="product2" wx:if="{{current==0}}">1</view>

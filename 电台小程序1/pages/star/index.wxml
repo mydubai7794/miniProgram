@@ -1,0 +1,15 @@
+<view>
+    <image class="pic1" src="https://ae01.alicdn.com/kf/Hf4df21b898b642ff9d3f78a695f2e140m.jpg"></image>
+</view>
+<view class="box">
+    <image class="pic2" src="../../pics/star-box1.png"></image>
+    <button open-type="share" class="share"></button>
+    <button bindtap="handlemusic" class="music"></button>
+    <button class="info" bindtap="handlenav"></button>
+</view>
+<view class="box">
+    <image class="pic3" src="../../pics/star-box2.png"></image>
+    <button open-type="share" class="share"></button>
+    <button bindtap="handlemusic" class="music"></button>
+    <button class="info" bindtap="handlenav"></button>
+</view>
