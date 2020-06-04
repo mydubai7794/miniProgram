@@ -1,0 +1,49 @@
+page {
+  background-color: rgb(244, 244, 245);
+}
+.pic1 {
+  height: 300rpx;
+  width: 690rpx;
+  padding: 0rpx 30rpx;
+}
+.pic2 {
+  display: flex;
+  position: relative;
+  height: 200rpx;
+  width: 690rpx;
+  padding: 30rpx 30rpx;
+}
+.box {
+  display: flex;
+}
+.share {
+  position: absolute;
+  margin-top: 145rpx;
+  margin-left: 630rpx;
+  width: 10rpx;
+  height: 50rpx;
+  opacity: 0;
+}
+.music {
+  position: absolute;
+  margin-top: 150rpx;
+  margin-left: 130rpx;
+  width: 6rpx;
+  height: 45rpx;
+  opacity: 0;
+}
+.info {
+  position: absolute;
+  margin-top: 150rpx;
+  margin-left: 550rpx;
+  width: 6rpx;
+  height: 45rpx;
+  opacity: 0;
+}
+.pic3 {
+  display: flex;
+  position: relative;
+  height: 200rpx;
+  width: 690rpx;
+  padding: 0rpx 30rpx;
+}

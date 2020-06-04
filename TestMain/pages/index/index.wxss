@@ -1,0 +1,73 @@
+page {
+  background-color: rgb(244, 244, 245);
+}
+.tabs {
+}
+.tabs_title {
+  display: flex;
+  height: 60rpx;
+  width: 100%;
+}
+.rec {
+  flex: 1;
+  color: rgb(172, 172, 172);
+  font-size: 40rpx;
+  padding-right: 30rpx;
+  text-align: right;
+}
+.find {
+  flex: 1;
+  color: rgb(172, 172, 172);
+  font-size: 40rpx;
+  padding-left: 30rpx;
+  text-align: left;
+}
+.active {
+  color: red;
+  font-weight: 600;
+}
+.product {
+  position: fixed;
+  top: 50rpx;
+  bottom: 450rpx;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 500rpx);
+}
+.lanmu {
+  color: rgb(43, 41, 41);
+  font-size: 30rpx;
+  padding: 30rpx 30rpx;
+}
+.hezi {
+  display: flex;
+
+  width: 750rpx;
+  height: 170rpx;
+}
+.yihezi {
+  margin: 0 30rpx;
+  flex: 1;
+}
+.hezitwo {
+  margin-top: 20rpx;
+  display: flex;
+
+  width: 750rpx;
+  height: 170rpx;
+}
+.erhezi {
+  margin: 0 rpx;
+  flex: 1;
+}
+.fresh {
+  width: 210rpx;
+  height: 170rpx;
+}
+.hezithree {
+  margin-top: 20rpx;
+  display: flex;
+
+  width: 210rpx;
+  height: 170rpx;
+}

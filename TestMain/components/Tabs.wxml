@@ -1,0 +1,3 @@
+<view wx:for="{{tabs}}" wx:key="id" class="title_item {{item.isActive?'active':''}}" bindtap="handleintap">
+    {{item.name}}
+</view>

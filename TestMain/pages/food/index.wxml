@@ -1,0 +1,15 @@
+<view>
+    <image class="pic1" src="https://ae01.alicdn.com/kf/Hea8ca21b3c9e446497628d53c769bb05n.jpg"></image>
+</view>
+<view class="box">
+    <image class="pic2" src="../../pics/food-box1.png"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusic" class="music1" src=" {{index==0?'../../pics/bof.png':'../../pics/zan.png'}}"></image>
+    <button class="info" bindtap="handlenav"></button>
+</view>
+<view class="box">
+    <image class="pic3" src="../../pics/food-box2.png"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusic" class="music" src=" {{index==0?'../../pics/bof.png':'../../pics/zan.png'}}"></image>
+    <button class="info" bindtap="handlenav"></button>
+</view>
