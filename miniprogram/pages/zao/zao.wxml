@@ -1,11 +1,11 @@
 <view class="one">  
-<image class="sudo-img" src="../../images/11.png">
+<image class="sudo-img" src="../../images/27.png">
 </image>
 </view>
 
 
 <view class="two">
-<image class=" fl avatar" src="../../images/15.png">
+<image class=" fl avatar" src="../../images/28.png">
 </image> 
 <image  bindtap="handlemusic"  class="fl avatar2" src=" {{index==0?'../../images/16.png':'../../images/17.png'}}"></image>
 <view class=" fl two-text">每日双语咨询！新鲜E闻6月1日</view>
@@ -17,7 +17,7 @@
 </view>
 
 <view class="two">
-<image class=" fl avatar" src="../../images/15.png">
+<image class=" fl avatar" src="../../images/28.png">
 </image> 
 <image  bindtap="handlemusic"  class="fl avatar2" src=" {{index==0?'../../images/16.png':'../../images/17.png'}}"></image>
 <view class=" fl two-text">每日双语咨询！新鲜E闻6月1日</view>
@@ -31,7 +31,7 @@
 
 
 <view class="two">
-<image class=" fl avatar" src="../../images/15.png">
+<image class=" fl avatar" src="../../images/28.png">
 </image> 
 <image  bindtap="handlemusic"  class="fl avatar2" src=" {{index==0?'../../images/16.png':'../../images/17.png'}}"></image>
 <view class=" fl two-text">每日双语咨询！新鲜E闻5月31日</view>
