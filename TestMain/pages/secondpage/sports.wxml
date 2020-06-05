@@ -1,0 +1,4 @@
+<!--pages/secondpage/sports.wxml-->
+<navigator url="../subject/search">
+    <image src="../picture/search.png" class="search" ></image>
+</navigator>

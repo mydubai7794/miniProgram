@@ -27,8 +27,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.1",
-	"appid": "wxff5b66339c136746",
-	"projectname": "%E7%94%B5%E5%8F%B0%E5%B0%8F%E7%A8%8B%E5%BA%8F1",
+	"appid": "touristappid",
+	"projectname": "TestMain",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -46,10 +46,6 @@
 		},
 		"plugin": {
 			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"gamePlugin": {

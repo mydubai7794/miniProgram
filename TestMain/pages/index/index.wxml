@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <view class="tabs">
   <view class="tabs_title">
     <view bindtap="handletap" data-current="0" class="rec  {{current==0?'active':''}}">推荐</view>

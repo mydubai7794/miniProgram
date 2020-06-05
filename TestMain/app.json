@@ -10,7 +10,17 @@
     "pages/food/index",
     "pages/star/index",
     "pages/read/index",
-    "pages/morning/index"
+    "pages/morning/index",
+    "pages/subject/subject",
+    "pages/secondpage/political",
+    "pages/secondpage/sociology",
+    "pages/secondpage/international",
+    "pages/secondpage/economics",
+    "pages/secondpage/science",
+    "pages/secondpage/entertainment",
+    "pages/secondpage/sports",
+    "pages/secondpage/military",
+    "pages/subject/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
