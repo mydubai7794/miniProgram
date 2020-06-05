@@ -1,66 +1,40 @@
-// pages/political/political.js
+const innerAudioContext = wx.createInnerAudioContext();
 Page({
-
-  /**
-   * 页面的初始数据
-   */
+  onReady: function (e) {
+    this.index = 0;
+    // 使用 wx.createAudioContext 获取 audio 上下文 context
+    // this.audioCtx = wx.createAudioContext("myAudio");
+  },
   data: {
-
+    index: 0,
+    // poster:
+    //   "http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000",
+    // name: "此时此刻",
+    // author: "许巍",
+    // src: "http://music.163.com/song/media/outer/url?id=562598065.mp3",
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+  handlemusic: function (e) {
+    if (0 === this.index) {
+      console.log(0);
 
+      innerAudioContext.play();
+      this.index = 1;
+    } else {
+      console.log(1);
+
+      innerAudioContext.pause();
+      this.index = 0;
+    }
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  handlenav: function (e) {
+    wx.navigateTo({
+      url: "../fresh-info1/index",
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
   onShow: function () {
-
+    innerAudioContext.src =
+      "http://music.163.com/song/media/outer/url?id=562598065.mp3";
+    //音频的数据链接，用于直接播放。支持云文件ID（2.2.3起）。
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
-})
+});

@@ -9,7 +9,16 @@
   box-sizing: border-box;
 } 
 .search{
+  position:absolute; 
   float: right;
+  top: 10rpx;
+  right: 50rpx;
   width: 70rpx;
   height: 70rpx;
+}
+.pic1 {
+  position: relative;
+  height: 300rpx;
+  width: 690rpx;
+  padding: 0rpx 30rpx;
 }

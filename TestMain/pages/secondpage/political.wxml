@@ -1,5 +1,17 @@
 <!--pages/political/political.wxml-->
-<navigator url="../subject/search">
+<image src="../picture/shizheng.png" class=".pic1"></image>
+  <navigator url="../subject/search">
     <image src="../picture/search.png" class="search" ></image>
-</navigator>
-<text>pages/political/political.wxml</text>
+  </navigator>
+<view class="box">
+    <image class="pic2" src="../picture/food-box1.png"></image>
+    <button open-type="share" class="share"></button>
+    <button bindtap="handlemusic" class="music"></button>
+    <button class="info" bindtap="handlenav"></button>
+  </view>
+<view class="box">
+    <image class="pic3" src="../picture/food-box1.png"></image>
+    <button open-type="share" class="share"></button>
+    <button bindtap="handlemusic" class="music"></button>
+    <button class="info" bindtap="handlenav"></button>
+</view>
