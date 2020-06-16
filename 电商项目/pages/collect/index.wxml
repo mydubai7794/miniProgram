@@ -1,0 +1,13 @@
+<view class="collect_content">
+    <view class="goods_item" wx:for="{{collect}}" wx:key="goods_id">
+        <!-- 左侧图片容器 -->
+        <view class="goods_img_wrap">
+            <image class="lestimg" mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'http://image4.suning.cn/uimg/b2c/newcatentries/0070078057-000000000154099975_1_400x400.jpg'}}"></image>
+        </view>
+        <!-- 右侧图片名称 -->
+        <view class="goods_info_wrap">
+            <view class="goods_name">{{item.goods_name}}</view>
+            <view class="good_price">￥{{item.goods_price}}</view>
+        </view>
+    </view>
+</view>
