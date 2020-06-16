@@ -1,0 +1,63 @@
+.ima {
+  width: 100%;
+}
+.swi {
+  width: 750rpx;
+  height: 340rpx;
+}
+.index_cate {
+  display: flex;
+}
+
+.all {
+  width: 750rpx;
+  height: 20rpx;
+  background-color: rgb(245, 245, 245);
+}
+.dingz {
+  margin: 30rpx 0rpx 30rpx 20rpx;
+  height: 60rpx;
+  width: 750rpx;
+  font-weight: 600;
+  font-size: larger;
+}
+.shu {
+  display: inline-block;
+  vertical-align: middle;
+  height: 70rpx;
+  width: 10rpx;
+  background-color: rgb(231, 114, 114);
+}
+.diyihang {
+  width: 750rpx;
+  height: 500rpx;
+}
+.dahezi {
+  display: inline-block;
+  height: 500rpx;
+  width: 375rpx;
+}
+.goods {
+  height: 350rpx;
+  width: 360rpx;
+  margin-left: 5rpx;
+}
+.mingcheng {
+  font-size: 27rpx;
+  margin: 10rpx;
+  margin-top: 15rpx;
+  letter-spacing: 4rpx;
+  width: 160rpx;
+}
+.jiage {
+  font-size: 35rpx;
+  margin: 20rpx 0rpx 15rpx 10rpx;
+  color: red;
+  width: 170rpx;
+}
+.erhezi {
+  display: inline-block;
+
+  height: 500rpx;
+  width: 375rpx;
+}
