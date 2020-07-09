@@ -1,0 +1,1 @@
+<view class="chongzhi_button" bindtap="pay">支付</view>

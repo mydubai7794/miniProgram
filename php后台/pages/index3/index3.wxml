@@ -1,0 +1,2 @@
+<!--pages/index3/index3.wxml-->
+<view class="chongzhi_button" bindtap="pay">支付</view>
