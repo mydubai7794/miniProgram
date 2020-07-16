@@ -1,0 +1,4 @@
+.btn1 {
+  width: 60%;
+  color: grey;
+}

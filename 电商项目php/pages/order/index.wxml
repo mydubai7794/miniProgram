@@ -1,0 +1,24 @@
+<!-- 收获地址的容器 -->
+<!-- 购物车内容 -->
+<view class="cart_content">
+    <view class="cart_title">已购买</view>
+    <view class="cart_main">
+        <!-- 当cart长度不为0 显示信息 为 0显示提示 -->
+        <view class="cart_item" wx:for="{{cart2}}" wx:key="goods_id">
+            <!-- 商品图片 -->
+            <navigator class="cart_img_wrap">
+                <image class="ima1" mode="widthFix" src="{{item.goods_small_logo}}"></image>
+            </navigator>
+            <!-- 商品信息 -->
+            <view class="cart_info_wrap">
+                <view class="goods_name">{{item.goods_name}}</view>
+                <view class="goods_price_wrap">
+                    <view class="goods_price">￥{{item.goods_price}}</view>
+                    <view class="cart_num_tool">
+                        <view class="goods_num">X {{item.num}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

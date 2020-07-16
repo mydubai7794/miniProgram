@@ -1,0 +1,20 @@
+<searchinput></searchinput>
+<!-- 监听自定义事件 -->
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handlebindtabsItemChange">
+    <block wx:if="{{tabs[0].isActive}}">
+        <view class="first_tab">
+            <navigator class="goods_item" wx:for="{{goods_list}}" wx:key="goods_id" url="/pages/goods_detail/index?goods_id={{item.goods_id}}">
+                <!-- 左侧图片容器 -->
+                <view class="goods_img_wrap">
+                    <image class="lestimg" mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'http://image4.suning.cn/uimg/b2c/newcatentries/0070078057-000000000154099975_1_400x400.jpg'}}"></image>
+                </view>
+                <!-- 右侧图片名称 -->
+                <view class="goods_info_wrap">
+                    <view class="goods_name">{{item.goods_name}}</view>
+                    <view class="good_price">￥{{item.goods_price}}</view>
+                </view>
+            </navigator>
+        </view>
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">1</block>
+</Tabs>

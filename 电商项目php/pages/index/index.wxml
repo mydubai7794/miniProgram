@@ -1,0 +1,95 @@
+<view class="pyg_index">
+    <!-- 搜索框 -->
+    <!-- <searchinput></searchinput> -->
+    <!-- <view class="all"></view> -->
+    <view class="index_swiper">
+        <swiper autoplay circular indicator-dots="{{true}}" class="swi">
+            <!-- 1 <swiper>标签自带宽度高度
+           100% * 150rpx
+       2 image标签也存在默认的宽度和高度 
+       
+       3 设计图片和轮播图
+          1 先看一下原图宽高  750 *340
+          2 让图片的高度自适应  宽度 等于100%
+          3 让swiper标签的高度 变成和图片一样的高
+        4 图片标签
+           mode 属性 渲染模式
+           widthfix 让图片标签高  和  宽高发生等比例的变化 -->
+            <!-- 1.轮播图 -->
+            <swiper-item class="swi" wx:for="{{swiperlist}}" wx:key="goods_id">
+                <navigator url="{{item.navigator_url}}">
+                    <image class="ima" mode="widthFix" src="{{item.image_src}}"></image>
+                </navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+    <!-- <view class="all"></view> -->
+    <!-- 分类条 -->
+    <!-- 个人名片 -->
+    <!-- <view class="dingz_mingpian">
+        <view class="shu"></view>
+        名片
+    </view> -->
+    <view class="class">
+        <view class="class1">
+            <navigator url="/pages/personal/index" open-type="navigate">
+                <!-- 1                                                                                                        此处需要修改 -->
+                <image class="class1_pic1" src="https://www.dubai7794.xyz/pic/person_card.png"></image>
+            </navigator>
+        </view>
+        <!-- 企业名片 -->
+        <view class="class1">
+            <navigator url="/pages/company/index" open-type="navigate">
+                <!-- 1                                                                                                        此处需要修改 -->
+                <image class="class1_pic1" src="https://www.dubai7794.xyz/pic/company_card.png"></image>
+            </navigator>
+        </view>
+        <!-- 商品名片 -->
+        <view class="class1">
+            <navigator url="/pages/commodity/order" open-type="navigate">
+                <!-- 1                                                                                                        此处需要修改 -->
+                <image class="class1_pic1" src="https://www.dubai7794.xyz/pic/good_card.png"></image>
+            </navigator>
+        </view>
+    </view>
+    <!-- 1 商品总览 总盒子 -->
+    <view class="goods">
+        <!-- 标题 定制 -->
+        <view class="dingz">
+            <view class="shu"></view>
+            为您推荐
+        </view>
+        <!-- 具体商品 -->
+        <!-- 第一个商品    第一行 -->
+        <view class="diyihang">
+            <view class="dahezi">
+                <navigator url="/pages/goods_detail1/index" open-type="navigate">
+                    <!-- 1                                                                                                      此处需要修改 -->
+                    <image class="goods" src="https://www.dubai7794.xyz/pic/kuaizi3.jpg"></image>
+                    <view class="mingcheng">智能杀菌牙刷架</view>
+                    <view class="jiage">￥99.00</view>
+                </navigator>
+            </view>
+            <!-- 第二个商品 -->
+            <view class="erhezi">
+                <navigator url="/pages/goods_detail3/index" open-type="navigate">
+                    <!-- 1                                                                                                       此处需要修改 -->
+                    <image class="goods" src="cloud://l-xuanda-t15li.6c2d-l-xuanda-t15li-1302375241/goods3.png"></image>
+                    <view class="mingcheng">红茶玛奇朵</view>
+                    <view class="jiage">￥15.00</view>
+                </navigator>
+            </view>
+        </view>
+        <!-- 第三个商品   第二行 -->
+        <view class="dierhang">
+            <view class="dahezi">
+                <navigator url="/pages/goods_detail2/index" open-type="navigate">
+                    <!-- 1                                                                                                        此处需要修改 -->
+                    <image class="goods" src="cloud://l-xuanda-t15li.6c2d-l-xuanda-t15li-1302375241/good2.png"></image>
+                    <view class="mingcheng">珍珠奶茶2</view>
+                    <view class="jiage">￥13.00</view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>

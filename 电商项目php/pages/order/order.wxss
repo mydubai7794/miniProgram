@@ -1,0 +1,398 @@
+.main_menu_box{
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+
+}
+/* 二级页面左侧菜单栏 */
+.menu_box_left{
+  /* 设置fixed定位，固定左边，不会随着页面滚动而滚动 */
+  width: 200rpx;
+  height: 100%;
+  background-color: antiquewhite;
+  overflow: auto;
+  border-right: 20rpx;
+  border-color: black;
+}
+.sbl{
+  /* 左侧主view设置fixed后，当左侧栏超出屏幕高度后无法滑动，所以设置一个子view来解决，给子view设置相对定位 */
+  position: absolute;
+  height: 100%;
+  overflow: auto;
+  
+ 
+  
+}
+.box_left_item{
+  width: 180rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 84rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  display: block;
+  overflow: auto;
+  color: #444;
+  border-bottom: 1rpx solid #e8e8e8;
+  border-right: 3rpx solid black;
+
+  
+}
+.active{
+  width: 180rpx;
+  height: 80rpx;
+  background:rgba(255,255,255,1); 
+  font-weight:900;
+  color:rgba(51,51,51,1);
+  
+}
+.active:before{
+  width:r5px;
+  height:50rpx;
+  content: "|";
+  font-weight: 900;
+  color: rgba(214,70,60,1);
+  float: left;
+  font-size: 50rpx;
+  margin-left: 0;
+  padding-left: 0;
+}
+.menu_box_right{
+  position: absolute;
+  width: 100%;
+  left: 180rpx;
+  
+}
+.menu_right_title{
+  margin-left: 15rpx;
+  margin-top: 15rpx;
+  padding-bottom: 12rpx;
+  font-size:24rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+.menu_right_item{
+  margin-left: 15rpx;
+  width: 100%;
+  height: 225rpx;
+  border-bottom: 1rpx solid #D8D8D8;
+  display: flex;
+}
+.shop_img{
+  width: 200rpx;
+  height: 200rpx;
+  padding: 15rpx;
+}
+.icon_vip{
+  position: absolute;
+  width: 38rpx;
+  height: 30rpx;
+  margin: 15rpx 0 0 15rpx;
+}
+.menu_right_txt{
+  width: 310rpx;
+  height: 200rpx;
+  padding-top: 15rpx;  
+  line-height:30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu_right_name{
+  font-size:28rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+.menu_right_lable{
+  width: 50rpx;
+  height: 50rpx;
+  background:rgba(214,70,60,1);
+  border-radius: 25rpx;
+  font-size:20rpx;
+  color:rgba(255,255,255,1);
+  text-align: center;
+  line-height: 50rpx;
+}
+.menu_right_down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  line-height:42rpx;
+}
+.menu_right_nprice{
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(214,70,60,1);
+}
+.menu_right_oprice{
+  font-size:20rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(185,189,185,1);
+  text-decoration:line-through;
+}
+.menu_right_shopcar{
+  width: 38rpx;
+  height: 38rpx;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

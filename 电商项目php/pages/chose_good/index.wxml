@@ -1,0 +1,35 @@
+
+<view class="title">商品属性值选择</view> 
+
+<!--options-->
+
+<view class="commodity_attr_list"> 
+
+ <!--每组属性-->
+<!--wx:for 遍历数组返回数据，wx:for-item 遍历数组返回数据和标签 wx:for-index -->
+ <view class="attr_box" wx:for="{{attrValueList}}" wx:for-item="attrValueObj" wx:for-index="attrIndex"> 
+
+ <!--属性名-->
+ <view class="attr_name">{{attrValueObj.attrKey}}</view> 
+
+ <!--属性值-->
+ <view class="attr_value_box"> 
+
+ <!--每个属性值-->
+ <view class="attr_value {{attrIndex==firstIndex || attrValueObj.attrValueStatus[valueIndex]?(value==attrValueObj.selectedValue?'attr_value_active':''):'attr_value_disabled'}}" bindtap="selectAttrValue" data-status="{{attrValueObj.attrValueStatus[valueIndex]}}"
+
+ data-value="{{value}}" data-key="{{attrValueObj.attrKey}}" data-index="{{attrIndex}}" data-selectedvalue="{{attrValueObj.selectedValue}}" wx:for="{{attrValueObj.attrValues}}" wx:for-item="value" wx:for-index="valueIndex">{{value}}</view> 
+
+ </view> 
+
+ </view> 
+
+</view> 
+
+<!--button-->
+
+<view class="weui-btn-area"> 
+
+ <button class="weui-btn" type="primary" bindtap="submit">确定</button> 
+
+</view>

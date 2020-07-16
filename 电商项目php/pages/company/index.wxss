@@ -1,0 +1,70 @@
+page {
+  background-color: rgb(244, 244, 245);
+}
+
+.pic2 {
+  display: flex;
+  height: 200rpx;
+  width: 690rpx;
+  padding: 30rpx 20rpx;
+  position: relative;
+}
+.box {
+  margin-left: 30rpx;
+  display: flex;
+  position: relative;
+}
+.box2 {
+  margin-top: -30rpx;
+  /* 边距重合 */
+  margin-left: 30rpx;
+  display: flex;
+  position: relative;
+}
+.share {
+  position: absolute;
+  margin-top: 145rpx;
+  margin-left: 630rpx;
+  width: 10rpx;
+  height: 50rpx;
+  opacity: 0;
+}
+.music {
+  position: absolute;
+  margin-top: 120rpx;
+  margin-left: 130rpx;
+  width: 50rpx;
+  height: 45rpx;
+  border-radius: 40rpx;
+  z-index: 2;
+}
+
+.info {
+  position: absolute;
+  margin-top: 150rpx;
+  margin-left: 550rpx;
+  width: 6rpx;
+  height: 45rpx;
+  opacity: 100;
+}
+.pic3 {
+  display: flex;
+  height: 200rpx;
+  width: 690rpx;
+  padding: 30rpx 20rpx;
+  position: relative;
+}
+.music1 {
+  position: absolute;
+  margin-top: 120rpx;
+  margin-left: 130rpx;
+  width: 50rpx;
+  height: 45rpx;
+  border-radius: 40rpx;
+  z-index: 2;
+}
+.txt {
+  margin-top: 30px;
+  margin-left: 100px;
+  position: absolute;
+}
