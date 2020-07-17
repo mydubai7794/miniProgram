@@ -1,0 +1,67 @@
+<swiper autoplay circular indicator-dots="{{true}}" class="swi">
+    <swiper-item wx:for="{{imgList}}">
+        <!-- 1                                                                                                                     此处随商家物品修改 -->
+        <image class="ima1" mode="scaleToFill" data-url="{{item.image_src}}" bindtap="handlepreview" src="{{item.image_src}}"></image>
+    </swiper-item>
+</swiper>
+<!-- 1                                                                                                                     此处随商家物品修改 -->
+<view class="goodsprice">￥99.00</view>
+<view class="switch-type">
+    <view class="btn {{currentSelectTripType == 'bai' ? 'active' : ''}}" bindtap='selectedbai' data-id='bai'>
+        象牙白
+    </view>
+    <view class="btn {{currentSelectTripType == 'fen' ? 'active' : ''}}" bindtap='selectedfen' data-id='fen'>
+        莫兰迪粉
+    </view>
+    <view class="btn {{currentSelectTripType == 'lv' ? 'active' : ''}}" bindtap='selectedlv' data-id='lv'>
+        豆绿色
+    </view>
+</view>
+<view class="goodsnamerow">
+    <!-- 1                                                                                                                     此处随商家物品修改 -->
+    <view class="goodsname">
+        [不要让牙刷毁掉你的口腔]LUNSH蓝犀-UVC计时牙刷消毒器 消菌防护智能断电 挂壁式免打孔 不伤墙不插电 够一家五口用 牙刷消毒盒
+    </view>
+    <view class="goodscollect" bindtap="handleicon">
+        <text class="iconfont {{iscollect?'icon-lvsefenkaicankaoxianban-':'icon-shoucang'}}"></text>
+        <view class="collect_text">收藏</view>
+    </view>
+</view>
+<view class="goods_info">
+    <view class="goods_info_title">图文详情</view>
+    <view class="goods_info_cotent">
+        <!-- 富文本                                                                                                            此处随商家物品修改 -->
+        <rich-text nodes="此处自由添加"></rich-text>
+    </view>
+</view>
+<view class="btm_tool">
+    <view class="tool_item">
+        <view class="iconfont icon-kefu"></view>
+        <view>客服</view>
+        <button class="contact" open-type="contact"></button>
+    </view>
+    <view class="tool_item">
+        <view class="iconfont icon-yixianshi-"></view>
+        <view>分享</view>
+        <button class="contact" open-type="share"></button>
+    </view>
+    <view class="tool_item">
+        <navigator open-type="switchTab" url="/pages/cart/index">
+            <view class="iconfont icon-gouwuche"></view>
+            <view>购物车</view>
+        </navigator>
+    </view>
+    <view class="tool_item btn_cart" bindtap="handlecar">
+        <view>加入购物车</view>
+    </view>
+    <view class="tool_item btn_buy" bindtap="pay">
+        <view>立即购买</view>
+    </view>
+    <!-- 分界线 -->
+    <!-- <view class="tool_item btn_cart" bindtap="handlecar">
+        <view>加入购物车</view>
+    </view>
+    <view class="tool_item btn_buy" bindtap="pay">
+        <view>立即购买</view>
+    </view> -->
+</view>

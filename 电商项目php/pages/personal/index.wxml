@@ -1,0 +1,14 @@
+<view class="box">
+    <image class="pic2" src="https://www.dubai7794.xyz/pic/sxnn.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicTwo" class="music1" src=" {{theStatus==0?'https://www.dubai7794.xyz/pic/zan.png':'https://www.dubai7794.xyz/pic/bof.png'}}"></image>
+    <p class="txt">你好，我是苏小起。</p>
+    <!-- <button class="info" bindtap="handlenav"></button>
+    取消了详情按钮 -->
+</view>
+<view class="box2">
+    <image class="pic3" src="https://www.dubai7794.xyz/pic/sxnn.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicOne" class="music" src=" {{index==0?'https://www.dubai7794.xyz/pic/zan.png':'https://www.dubai7794.xyz/pic/bof.png'}}"></image>
+    <p class="txt">苏州壹起文化科技有限公司</p>
+</view>

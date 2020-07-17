@@ -1,0 +1,20 @@
+<view class="order_main">
+    <view wx:for="{{order}}" wx:key='num' wx:for-item="item" class="order_item">
+        <view class="order_no_row">
+            <view class="order_no_text">商品名称</view>
+            <view class="order_no_value">{{item.goods_name}}</view>
+        </view>
+        <view class="order_no_row">
+            <view class="order_no_text">订单编号</view>
+            <view class="order_no_value">{{item.goods_scores}}</view>
+        </view>
+        <view class="order_price_row">
+            <view class="price_text">订单价格</view>
+            <view class="price_values">￥{{item.goods_price}}</view>
+        </view>
+        <view class="order_time_row">
+            <view class="time_text">订单日期</view>
+            <view class="time_values">{{item.goods_time}}</view>
+        </view>
+    </view>
+</view>
