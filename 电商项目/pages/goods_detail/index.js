@@ -18,7 +18,7 @@ Page({
     goods_name: "珍珠奶茶",
     goods_id: 10,
     goods_small_logo:
-      "cloud://l-xuanda-t15li.6c2d-l-xuanda-t15li-1302375241/good1.png", //改
+      "www.dubai7794.xyz/pic/pic1.png", //改
   },
   cart3: {
     num: 1,

@@ -27,5 +27,6 @@
     "navigationBarBackgroundColor": "#F4F4F5",
     "navigationBarTitleText": "人民日报FM",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

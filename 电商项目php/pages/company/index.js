@@ -2,42 +2,66 @@ const innerAudioContext = wx.createInnerAudioContext();
 Page({
   onLoad: function (e) {
     this.data.index = 0;
-    this.data.theStatus = 0;
-    // 使用 wx.createAudioContext 获取 audio 上下文 context
-    // this.audioCtx = wx.createAudioContext("myAudio");
   },
   data: {
+    //index等于索引值
     index: 0,
-    theStatus: 0,
+    id: 0,
+    src: "https://www.dubai7794.xyz/pic/zan.png",
   },
-
-  handlemusicOne: function (e) {
-    innerAudioContext.src = 
-    "https://www.dubai7794.xyz/music/%E6%B2%89%E9%86%89%E4%BA%8E%E9%A3%8E%E4%B8%AD.mp3";
+  handlemusicButtom: function (e) {
     if (0 == this.data.index) {
+      var id = getId(e);
+      console.log(id);
+      if(id == 1){
+        innerAudioContext.src = 
+        "http://www.dubai7794.xyz/music/%E5%A3%B9%E8%B5%B7%E7%A7%91%E6%8A%80.mp3";
+        this.setData({
+          src1:"https://www.dubai7794.xyz/pic/bof.png",
+          src2:"https://www.dubai7794.xyz/pic/zan.png",
+          src3:"https://www.dubai7794.xyz/pic/zan.png",
+          src4:"https://www.dubai7794.xyz/pic/zan.png"
+        })
+      }
+      if(id == 2){
+        innerAudioContext.src ="http://www.dubai7794.xyz/music/%E5%B8%88%E5%85%84%E6%9A%96%E6%9A%96.mp3";
+        this.setData({
+          src1:"https://www.dubai7794.xyz/pic/zan.png",
+          src2:"https://www.dubai7794.xyz/pic/bof.png",
+          src3:"https://www.dubai7794.xyz/pic/zan.png",
+          src4:"https://www.dubai7794.xyz/pic/zan.png"
+        })
+      }
+
+      if(id == 3){
+        innerAudioContext.src ="http://www.dubai7794.xyz/music/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E5%B0%8F%E5%88%9D.mp3";
+        this.setData({
+          src1:"https://www.dubai7794.xyz/pic/zan.png",
+          src2:"https://www.dubai7794.xyz/pic/zan.png",
+          src3:"https://www.dubai7794.xyz/pic/bof.png",
+          src4:"https://www.dubai7794.xyz/pic/zan.png"
+        })
+      }
+
+      if(id == 4){
+        innerAudioContext.src ="http://www.dubai7794.xyz/music/%E7%99%BE%E7%AB%8B%E5%BA%B7.mp3";
+        this.setData({
+          src1:"https://www.dubai7794.xyz/pic/zan.png",
+          src2:"https://www.dubai7794.xyz/pic/zan.png",
+          src3:"https://www.dubai7794.xyz/pic/zan.png",
+          src4:"https://www.dubai7794.xyz/pic/bof.png",
+        })
+      }
       innerAudioContext.play();
       this.setData({
-        index: 1,
+        index: id,
       });
-    } else {
+    } 
+    else {
       innerAudioContext.pause();
       this.setData({
         index: 0,
-      });
-    }
-  },
-  handlemusicTwo: function (e) {
-    innerAudioContext.src =
-    "http://www.dubai7794.xyz/music/%E4%BD%A0%E7%9A%84%E9%85%92%E9%A6%86%E5%AF%B9%E6%88%91%E6%89%93%E4%BA%86%E7%83%8A.mp3";
-    if (0 == this.data.theStatus) {
-      innerAudioContext.play();
-      this.setData({
-        theStatus: 1,
-      });
-    } else {
-      innerAudioContext.pause();
-      this.setData({
-        theStatus: 0,
+        src:"https://www.dubai7794.xyz/pic/zan.png"
       });
     }
   },
@@ -46,25 +70,9 @@ Page({
       url: "../fresh-info1/index",
     });
   },
-
-  audioPlay() {
-    const innerAudioContext = wx.createInnerAudioContext()
-innerAudioContext.autoplay = true
-innerAudioContext.src = 'http://www.dubai7794.xyz/music/%E4%BD%A0%E7%9A%84%E9%85%92%E9%A6%86%E5%AF%B9%E6%88%91%E6%89%93%E4%BA%86%E7%83%8A.mp3'
-innerAudioContext.onPlay(() => {
-  console.log('开始播放')
-})
-innerAudioContext.onError((res) => {
-  console.log(res.errMsg)
-  console.log(res.errCode)
-})
-  },
-  //   //点击播放,(如果要一进来就播放放到onload即可)
-  //   handlemusic: function () {
-  //     innerAudioContext.play();
-  //   },
-  //   //点击 停止
-  //   stop: function () {
-  //     innerAudioContext.pause();
-  //   },
 });
+function getId(obj) {
+  var id = obj.target.id;
+  return id;
+}
+

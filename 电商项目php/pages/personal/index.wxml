@@ -1,14 +1,38 @@
 <view class="box">
-    <image class="pic2" src="https://www.dubai7794.xyz/pic/sxnn.jpg"></image>
+    <image class="pic2" src="https://www.dubai7794.xyz/card/aizheluo.jpg"></image>
     <button open-type="share" class="share"></button>
-    <image bindtap="handlemusicTwo" class="music1" src=" {{theStatus==0?'https://www.dubai7794.xyz/pic/zan.png':'https://www.dubai7794.xyz/pic/bof.png'}}"></image>
-    <p class="txt">你好，我是苏小起。</p>
-    <!-- <button class="info" bindtap="handlenav"></button>
-    取消了详情按钮 -->
+    <image bindtap="handlemusicButtom" class="music1" src="{{index==0?src:src1}}" id="1"></image>
+    <p class="txt">你好，我是艾哲罗</p>
+    <p class="info">诺基亚苏州公司原副总经理、苏州大学客座教授;</p> 
 </view>
-<view class="box2">
-    <image class="pic3" src="https://www.dubai7794.xyz/pic/sxnn.jpg"></image>
+<view class="box">
+    <image class="pic3" src="https://www.dubai7794.xyz/card/fangluo.jpg"></image>
     <button open-type="share" class="share"></button>
-    <image bindtap="handlemusicOne" class="music" src=" {{index==0?'https://www.dubai7794.xyz/pic/zan.png':'https://www.dubai7794.xyz/pic/bof.png'}}"></image>
-    <p class="txt">苏州壹起文化科技有限公司</p>
+    <image bindtap="handlemusicButtom" class="music" src="{{index==0?src:src2}}" id="2"></image>
+    <p class="txt">你好，我是方骆与佳</p>
+    <p class="info">苏州大学文正学院播音主持专业：</p> 
+</view>
+
+<view class="box">
+    <image class="pic3" src="https://www.dubai7794.xyz/card/xintong.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicButtom" class="music" src="{{index==0?src:src3}}" id="3"></image>
+    <p class="txt">你好，我是辛童</p>
+    <p class="info">深圳新通供应链和iLearning自主学习平台创始人;</p> 
+</view>
+
+<view class="box">
+    <image class="pic3" src="https://www.dubai7794.xyz/card/yeye.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicButtom" class="music" src="{{index==0?src:src4}}" id="4"></image>
+    <p class="txt">你好，我是叶晔</p>
+    <p class="info">苏州独占园文化传播有限公司创始人；</p>
+</view>
+
+<view class="box">
+    <image class="pic3" src="https://www.dubai7794.xyz/card/yubin.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicButtom" class="music" src="{{index==0?src:src5}}" id="5"></image>
+    <p class="txt">你好，我是虞斌</p>
+    <p class="info">斌御国际文化创始人；</p>
 </view>

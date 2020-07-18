@@ -1,6 +1,6 @@
 <view class="detail_detail">
     <!-- 1                                                                                                                     此处随商家物品修改 -->
-    <image class="ima1" data-url="cloud://l-xuanda-t15li.6c2d-l-xuanda-t15li-1302375241/good1.png" bindtap="handlepreview" mode="widthFix" src="cloud://l-xuanda-t15li.6c2d-l-xuanda-t15li-1302375241/good1.png"></image>
+    <image class="ima1" data-url="www.dubai7794.xyz/pic/pic1.png" bindtap="handlepreview" mode="widthFix" src="cloud://l-xuanda-t15li.6c2d-l-xuanda-t15li-1302375241/good1.png"></image>
 </view>
 <!-- 1                                                                                                                     此处随商家物品修改 -->
 <view class="goodsprice">￥10.00</view>
