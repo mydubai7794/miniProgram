@@ -1,0 +1,32 @@
+<!-- 下面选择部分 -->
+<view class='main_menu_box'>
+  <!-- 左侧部分 -->
+  <view class='menu_box_left'>
+    <view class='sbl'>
+      <block wx:key="key{{menu_index}}" wx:for="{{left_menus}}" bindtap="handletap" data-page="{{item.url_index}}">
+        <!-- 当前项的id等于item项的id，那个就是当前状态 -->
+        <!-- 用data-index记录这个数据在数组的下标位置，使用data-id设置每个item的id值，供打开右侧页面使用 -->
+        <view class='box_left_item {{curNav == item.id ? "active":""}}' bindtap="switchRightTab" data-index="{{index}}" data-id="{{item.id}}" data-name="{{item.menu_name}}">
+          {{item.menu_name}}
+        </view>
+      </block>
+    </view>
+    <!-- 右侧部分 -->
+    <view class='menu_box_right'>
+      <!-- 接受左侧或者一级页面传过来的菜单名称 -->
+      <!-- 这里我没有做有无数据的判断，有需求的话大家可以加一下 -->
+      <text class='menu_right_title'>{{menuRightTitle}}</text>
+      <block wx:key="key{{menu_right_index}}" wx:for="{{menuRightGoods}}">
+        <view class='menu_right_item' bindtap="handletap" data-page="{{item.url_index}}">
+          <image class='shop_img' src='{{item.shopImg}}'></image>
+          <view class='menu_right_txt'>
+            <text class='menu_right_name'>{{item.name}}</text>
+            <view class='menu_right_down'>
+              <text class='menu_right_nprice'>¥{{item.newPrice}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

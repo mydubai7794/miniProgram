@@ -1,0 +1,64 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/login/index",
+    "pages/company/index",
+    "pages/commodity/order",
+    "pages/personal/index",
+    "pages/cart/index",
+    
+    "pages/user/index",
+    "pages/goods_detail1/index",
+    "pages/goods_detail2/index",
+    "pages/goods_detail3/index",
+    "pages/goods_detail4/index",
+    
+    "pages/collect/index",
+    "pages/feedback/index",
+    "pages/pay/index",
+    "pages/search/index",
+  
+   
+    "pages/order/index",
+    "pages/order1/index",
+    "pages/auth/index"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "名片",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/Home.png",
+        "selectedIconPath": "icon/Home-.png"
+      },
+
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "icon/cart3.png",
+        "selectedIconPath": "icon/cart2.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/my-.png"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

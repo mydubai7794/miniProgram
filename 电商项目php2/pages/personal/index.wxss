@@ -1,0 +1,70 @@
+page {
+  background-color: rgb(244, 244, 245);
+}
+
+.pic2 {
+  display: flex;
+  height: 200rpx;
+  width: 690rpx;
+  padding: 30rpx 20rpx;
+  position: relative;
+}
+.box {
+  margin-left: 30rpx;
+  display: flex;
+  position: relative;
+}
+.box2 {
+  margin-top: -30rpx;
+  /* 边距重合 */
+  margin-left: 30rpx;
+  display: flex;
+  position: relative;
+}
+.share {
+  position: absolute;
+  margin-top: 100rpx;
+  margin-left: 587rpx;
+  width: 10rpx;
+  height: 50rpx;
+  opacity: 0;
+}
+.music {
+  position: absolute;
+  margin-top: 120rpx;
+  margin-left: 130rpx;
+  width: 50rpx;
+  height: 45rpx;
+  border-radius: 40rpx;
+  z-index: 2;
+}
+
+.info {
+  margin-top: 40px;
+  margin-left: 100px;
+  color: gray;
+  font-family: 微软雅黑, 宋体;
+  font-size: 0.7em;
+  position: absolute;
+}
+.pic3 {
+  display: flex;
+  height: 200rpx;
+  width: 690rpx;
+  padding: 30rpx 20rpx;
+  position: relative;
+}
+.music1 {
+  position: absolute;
+  margin-top: 120rpx;
+  margin-left: 130rpx;
+  width: 50rpx;
+  height: 45rpx;
+  border-radius: 40rpx;
+  z-index: 2;
+}
+.txt {
+  margin-top: 22px;
+  margin-left: 100px;
+  position: absolute;
+}

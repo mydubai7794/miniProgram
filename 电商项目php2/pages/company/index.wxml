@@ -1,0 +1,24 @@
+<view class="box">
+    <image class="pic2" src="https://www.dubai7794.xyz/card/yiqi.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicButtom" class="music1" src="{{index==0?src:src1}}" id="1"></image>
+    <p class="txt">苏州壹起文化科技有限公司</p>
+</view>
+<view class="box">
+    <image class="pic3" src="https://www.dubai7794.xyz/card/shixiongnuannuan.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicButtom" class="music" src="{{index==0?src:src2}}" id="2"></image>
+    <p class="txt">你好，我是师兄暖暖</p>
+</view>
+<view class="box">
+    <image class="pic3" src="https://www.dubai7794.xyz/card/chuxinshe.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicButtom" class="music" src="{{index==0?src:src3}}" id="3"></image>
+    <p class="txt">初心社</p>
+</view>
+<view class="box">
+    <image class="pic3" src="https://www.dubai7794.xyz/card/bailikang.jpg"></image>
+    <button open-type="share" class="share"></button>
+    <image bindtap="handlemusicButtom" class="music" src="{{index==0?src:src4}}" id="4"></image>
+    <p class="txt">百立康</p>
+</view>

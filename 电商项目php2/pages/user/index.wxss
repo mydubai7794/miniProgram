@@ -1,0 +1,123 @@
+page {
+  background-color: #edece8;
+}
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  position: relative;
+}
+.user_ima_wrap {
+  position: relative;
+}
+.user_bg {
+  height: 45vh;
+  /* 高斯模糊 */
+  filter: blur(8rpx);
+}
+.user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_name {
+  color: #fff;
+  margin-top: 40rpx;
+}
+.user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  border: 1rpx solid grey;
+  color: grey;
+  font-size: 38rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+}
+.user_content {
+  position: relative;
+}
+.user_main {
+  padding-bottom: 100rpx;
+  color: #666;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+}
+.histroy_wrap {
+  background-color: #fff;
+  display: flex;
+}
+.his_num {
+  color: var(--themeColor);
+}
+.his_name {
+}
+.nav1 {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.order_wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.orders_title {
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.order_content {
+  display: flex;
+}
+.nav2 {
+  flex: 1;
+  text-align: center;
+  padding: 15rpx 0;
+}
+.order_name {
+}
+.iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+.address_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.app_info_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+button::after {
+  border: none;
+}
+
+.app_info_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.recommend {
+  color: #616161;
+  height: 70rpx;
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 0rpx 0rpx 0rpx 10rpx;
+
+  font-size: 28rpx;
+  border: 0 solid;
+  text-align: left;
+  justify-content: center;
+  vertical-align: middle;
+}
